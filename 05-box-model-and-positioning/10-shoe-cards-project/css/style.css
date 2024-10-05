@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  background-color: #cccccc;
+}
+
+.container {
+  margin: 150px auto;
+  max-width: 600px;
+}
+.container .card {
+  margin: 20px 0;
+  padding: 20px 20px 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+.container .card h2 {
+  margin-bottom: 20px;
+  font-size: 27px;
+}
+.container .card p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container .card a {
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.container .card-sporty {
+  background: white url("../images/sporty.png") no-repeat center right/200px;
+}
+.container .card-sporty h2 {
+  color: red;
+}
+.container .card-sporty a {
+  background-color: red;
+  color: white;
+}
+.container .card-casual {
+  background: white url("../images/casual.png") no-repeat center right/200px;
+}
+.container .card-casual h2 {
+  color: blue;
+}
+.container .card-casual a {
+  background-color: blue;
+  color: white;
+}
+.container .card-formal {
+  background: white url("../images/formal.png") no-repeat center right/200px;
+}
+.container .card-formal h2 {
+  color: brown;
+}
+.container .card-formal a {
+  background-color: brown;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
